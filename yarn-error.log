@@ -1,0 +1,53 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\r12306c\.yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\r12306c\.yarn\bin;C:\Users\r12306c\AppData\Local\Yarn\bin;C:\Users\r12306c\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Ruby22-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\xampp\php;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\cygwin64\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Notepad++;C:\Program Files\KDiff3;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Users\r12306c\AppData\Local\Code\bin;C:\program files\Sublime Text 3;C:\Program Files\Git\usr\bin;C:\Users\r12306c\AppData\Local\.meteor;C:\Program Files\MongoDB\Server\3.2\bin;C:\cygwin64\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Heroku\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\r12306c\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  9.3.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "react-complete-guide",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0",
+      "react-redux": "^5.0.6",
+      "react-scripts": "1.0.13",
+      "redux": "^3.7.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\r12306c\.yarn\lib\cli.js:121045:13)
+      at Interface.emit (events.js:159:13)
+      at Interface._ttyWrite (readline.js:786:16)
+      at ReadStream.onkeypress (readline.js:165:10)
+      at ReadStream.emit (events.js:159:13)
+      at emitKeys (internal/readline.js:420:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:159:13)
+      at addChunk (_stream_readable.js:265:12)
